@@ -5,6 +5,10 @@
 
 /* add styling here */
 
+footer {
+  padding: 18px 145px 50px;
+}
+
 .field-container-footer {
   display: flex;
   justify-content: space-between;
@@ -15,6 +19,13 @@
   height: 45px;
   padding-inline: 22px;
   box-sizing: border-box;
+  border: 1px solid #bcbcbc;
+}
+
+.footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .footer-socials > img {
@@ -25,8 +36,39 @@
   width: 300px;
   padding: 7px 22px 8px 8px;
   box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  border: 1px solid #bcbcbc;
+  border-radius: 4px;
 }
 
 .footer-location > img {
   width: 28px;
+  margin-right: 8px;
+}
+
+.footer-india {
+  width: 216px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  margin: 82px 0 20px;
+}
+
+.footer-nav > ul {
+  width: 100%;
+  list-style: none;
+  font-family: "Lato", sans-serif;
+  font-size: 12.8px;
+  padding-inline: 5px;
+  margin-right: 20px;
+  color: #3a3a3a;
+}
+
+.footer-nav > ul > li:first-child {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #000;
 }
