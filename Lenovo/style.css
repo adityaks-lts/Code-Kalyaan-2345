@@ -14,13 +14,15 @@ img{
     max-width: 100%;
     max-height:100%;
 }
-
+header{
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
 #top-head{
     display: flex;
     height: 35px;
     background-color: #ededed;
     font-size: 14px;
-    font-family: "Lato", Helvetica, Arial, sans-serif;
     box-sizing: border-box;
     padding-right: 15px;
 }
@@ -44,7 +46,7 @@ img{
 .dropdown:hover .dropdown-menu{
     display: block !important;
     width: auto;
-    margin: 2px;
+    margin-top: 2px;
 
 }
 
@@ -79,7 +81,7 @@ img{
     width: 10px;
     font-size: 18px !important;
 }
-#top-left-head>div:hover, #right-mid-head>div:hover{
+#top-left-head>div:hover, #right-mid-head>div:hover, #head-nav-right>div:hover{
     border-radius: 5px;
     border-bottom-left-radius: 0% !important;
     border-bottom-right-radius: 0% !important;
@@ -92,7 +94,7 @@ img{
     background-color: transparent !important;
     color: black !important;
     border: 0 !important;
-    font-size: 14px !important;
+    font-size: 14px ;
 }
 
 #mid-head{
@@ -148,4 +150,37 @@ img{
     display: flex;
     align-items: center;
     gap:15px
+}
+
+#bottom-nav{
+    font-size: 16px;
+    height: 39px;
+    padding: 16px 16px 0 16px;
+    color: rgb(78, 68, 78);
+}
+
+.dropdown:hover .products-menu{
+    margin: 2px;
+    width: 100vw !important;
+    max-width: 1920px;
+    display: flex !important;
+    justify-content: start;
+    background-color: rgb(237, 237, 237);
+    border-radius: 0 !important;
+    font-size: 14px !important;
+    padding: 12px !important;
+    transform: translate(-16px);
+}
+
+#head-nav-left>div:hover, #head-nav-left>div:hover button{
+    font-weight: bold;
+}
+
+#head-nav-right>div:not(:last-child){
+    border-right: 2px solid rgb(219, 219, 219);
+    padding-right: 20px;
+}
+
+.products-menu>div{
+    flex-basis: 5px;
 }
