@@ -12,16 +12,17 @@
 
 img{
     max-width: 100%;
-    max-height:100% ;
+    max-height:100%;
 }
 
 #top-head{
     display: flex;
     height: 35px;
     background-color: #ededed;
-    font-size: 10px;
+    font-size: 14px;
     font-family: "Lato", Helvetica, Arial, sans-serif;
     box-sizing: border-box;
+    padding-right: 15px;
 }
 #top-left-head{
     margin-left: auto;
@@ -34,11 +35,16 @@ img{
 }
 
 .left-drop{
-    transform: translate(-120px);
+    transform: translate(-130px);
+}
+
+.extra-left-drop{
+    transform: translate(-200px);
 }
 .dropdown:hover .dropdown-menu{
     display: block !important;
-    width: 100%;
+    width: auto;
+    margin: 2px;
 
 }
 
@@ -49,13 +55,13 @@ img{
 .top-drop-menu>a{
     border-bottom: 1px solid rgb(204, 204, 204) !important;
     padding-bottom: 10px ;
-    font-size: 10px !important;
+    font-size: 14px !important;
 
 }
 
 .dropdown-item>div:first-child{
     font-weight: bold;
-    font-size: 11px;
+    font-size: 16px;
     margin-bottom: 4px;
 }
 
@@ -71,9 +77,9 @@ img{
     box-sizing: border-box !important;
     margin-top: 3px;
     width: 10px;
-    font-size: 15px !important;
+    font-size: 18px !important;
 }
-#top-left-head>div:hover{
+#top-left-head>div:hover, #right-mid-head>div:hover{
     border-radius: 5px;
     border-bottom-left-radius: 0% !important;
     border-bottom-right-radius: 0% !important;
@@ -86,6 +92,60 @@ img{
     background-color: transparent !important;
     color: black !important;
     border: 0 !important;
-    font-size: 10px !important;
+    font-size: 14px !important;
 }
 
+#mid-head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 67px;
+    padding: 19px 16px 0px 16px;
+    box-sizing: border-box;
+}
+
+#left-mid-head{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    width: auto;
+}
+
+#lenovo-logo{
+    height: 100%;
+    padding: 4px 0px;
+    box-sizing: border-box;
+}
+
+#search-space{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+#search-bar{
+    padding-left: 20px;
+    width: 100%;
+    height: 44px;
+    max-width: 733px;
+    min-width: 695px;
+    border: 1.5px solid;
+    border-radius: 12px;
+    background-color: rgb(245, 245, 245);
+}
+
+.mid-head-icons{
+    font-size: 30px !important;
+}
+
+#search-icon{
+    transform: translate(-40px);
+}
+
+#right-mid-head{
+    display: flex;
+    align-items: center;
+    gap:15px
+}
