@@ -7,7 +7,7 @@
 
 
 footer {
-  padding: 18px 145px 50px;
+  padding: 18px 145px 100px;
   background-color: #ededed;
 }
 
@@ -112,7 +112,12 @@ footer {
   text-decoration: none;
   padding-right: 8px;
   margin-right: 5px;
+  border-right: 1px solid #333333;
 }
+.lower-links > a:last-child{
+    border: none;
+}
+
 
 /* add styling here */
 #container{
@@ -330,7 +335,5 @@ header{
     color: rgb(13, 92, 145);
 }
 
-.right-fixed-bar>img{
-   
-}
+
 
