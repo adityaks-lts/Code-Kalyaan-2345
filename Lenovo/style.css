@@ -17,6 +17,7 @@ img{
 header{
     font-family: "Lato", Helvetica, Arial, sans-serif;
     font-size: 14px;
+    z-index: 2;
 }
 #top-head{
     display: flex;
@@ -208,6 +209,15 @@ header{
     padding: 8px;
     position: fixed;
     width: 100%;
-    top: 90%;
+    bottom: 0%;
+    height: 50px;
+    box-sizing: border-box;
+}
 
+.left-fixed-bar{
+    color: rgb(13, 92, 145);
+}
+
+.right-fixed-bar>img{
+   
 }
