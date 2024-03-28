@@ -7,11 +7,30 @@
 
 footer {
   padding: 18px 145px 50px;
+  background-color: #ededed;
 }
 
 .field-container-footer {
   display: flex;
   justify-content: space-between;
+}
+
+.footer-label-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-label-container > h5 {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+}
+
+.footer-label-container > h5:last-child {
+  margin-right: 150px;
+}
+
+.footer-form-email {
+  border-radius: 14px;
 }
 
 .footer-email {
@@ -20,6 +39,8 @@ footer {
   padding-inline: 22px;
   box-sizing: border-box;
   border: 1px solid #bcbcbc;
+  border-radius: 4px;
+  font-size: 12px;
 }
 
 .footer-socials {
@@ -33,6 +54,7 @@ footer {
 }
 
 .footer-location {
+  background-color: #fff;
   width: 300px;
   padding: 7px 22px 8px 8px;
   box-sizing: border-box;
