@@ -154,9 +154,10 @@ header{
 
 #bottom-nav{
     font-size: 16px;
-    height: 39px;
-    padding: 16px 16px 0 16px;
+    height: 55px;
+    padding: 16px;
     color: rgb(78, 68, 78);
+    box-sizing: border-box;
 }
 
 .dropdown:hover .products-menu{
@@ -183,4 +184,22 @@ header{
 
 .products-menu>div{
     flex-basis: 5px;
+}
+#drop-menu-image{
+    width: 242px !important;
+    height: 162px !important;
+}
+#drop-menu-image>img{
+    width: 100%;
+    height: 100%;
+}
+.dropdown:hover .flex-menu{
+    display: flex !important;
+    transform: translate(-720px);
+    width: auto;
+    padding-right: 10px !important;
+}
+
+.flex-menu>div>a:first-child{
+    font-weight: bold !important;
 }
