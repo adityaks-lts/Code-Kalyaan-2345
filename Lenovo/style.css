@@ -203,3 +203,12 @@ header{
 .flex-menu>div>a:first-child{
     font-weight: bold !important;
 }
+
+#bottom-fixed-bar{
+    padding: 10px;
+    border: 1px solid;
+    position: fixed;
+    width: 100%;
+    top: 90%;
+
+}
