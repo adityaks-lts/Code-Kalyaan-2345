@@ -5,3 +5,219 @@
 
 
 /* add styling here */
+#container{
+    max-width: 1920px;
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+    max-height:100%;
+}
+header{
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    z-index: 2;
+}
+#top-head{
+    display: flex;
+    height: 35px;
+    background-color: #ededed;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding-right: 15px;
+}
+#top-left-head{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+
+}
+#top-left-head>div:nth-child(2){
+    padding: 6px 12px;
+}
+
+.left-drop{
+    transform: translate(-130px);
+}
+
+.extra-left-drop{
+    transform: translate(-200px);
+}
+.dropdown:hover .dropdown-menu{
+    display: block !important;
+    width: auto;
+    margin-top: 2px;
+
+}
+
+.top-drop-menu{
+    padding:16px !important;
+}
+
+.top-drop-menu>a{
+    border-bottom: 1px solid rgb(204, 204, 204) !important;
+    padding-bottom: 10px ;
+    font-size: 14px !important;
+
+}
+
+.dropdown-item>div:first-child{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.my-list>div:not(:first-child){
+    font-size: 10px !important;
+}
+
+.top-drop-menu>a:not(:last-child){
+    margin-bottom: 24px !important;
+}
+
+.top-icons{
+    box-sizing: border-box !important;
+    margin-top: 3px;
+    width: 10px;
+    font-size: 18px !important;
+}
+#top-left-head>div:hover, #right-mid-head>div:hover, #head-nav-right>div:hover{
+    border-radius: 5px;
+    border-bottom-left-radius: 0% !important;
+    border-bottom-right-radius: 0% !important;
+    border-bottom: 3px solid #e1140a !important;
+    background-color: white; 
+
+}
+
+.top-drop{
+    background-color: transparent !important;
+    color: black !important;
+    border: 0 !important;
+    font-size: 14px ;
+}
+
+#mid-head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 67px;
+    padding: 19px 16px 0px 16px;
+    box-sizing: border-box;
+}
+
+#left-mid-head{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    width: auto;
+}
+
+#lenovo-logo{
+    height: 100%;
+    padding: 4px 0px;
+    box-sizing: border-box;
+}
+
+#search-space{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+#search-bar{
+    padding-left: 20px;
+    width: 100%;
+    height: 44px;
+    max-width: 733px;
+    min-width: 695px;
+    border: 1.5px solid;
+    border-radius: 12px;
+    background-color: rgb(245, 245, 245);
+}
+
+.mid-head-icons{
+    font-size: 30px !important;
+}
+
+#search-icon{
+    transform: translate(-40px);
+}
+
+#right-mid-head{
+    display: flex;
+    align-items: center;
+    gap:15px
+}
+
+#bottom-nav{
+    font-size: 16px;
+    height: 55px;
+    padding: 16px;
+    color: rgb(78, 68, 78);
+    box-sizing: border-box;
+}
+
+.dropdown:hover .products-menu{
+    margin: 2px;
+    width: 100vw !important;
+    max-width: 1920px;
+    display: flex !important;
+    justify-content: start;
+    background-color: rgb(237, 237, 237);
+    border-radius: 0 !important;
+    font-size: 14px !important;
+    padding: 12px !important;
+    transform: translate(-16px);
+}
+
+#head-nav-left>div:hover, #head-nav-left>div:hover button{
+    font-weight: bold;
+}
+
+#head-nav-right>div:not(:last-child){
+    border-right: 2px solid rgb(219, 219, 219);
+    padding-right: 20px;
+}
+
+.products-menu>div{
+    flex-basis: 5px;
+}
+#drop-menu-image{
+    width: 242px !important;
+    height: 162px !important;
+}
+#drop-menu-image>img{
+    width: 100%;
+    height: 100%;
+}
+.dropdown:hover .flex-menu{
+    display: flex !important;
+    transform: translate(-720px);
+    width: auto;
+    padding-right: 10px !important;
+}
+
+.flex-menu>div>a:first-child{
+    font-weight: bold !important;
+}
+
+#bottom-fixed-bar{
+    padding: 8px;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.left-fixed-bar{
+    color: rgb(13, 92, 145);
+}
+
+.right-fixed-bar>img{
+   
+}
