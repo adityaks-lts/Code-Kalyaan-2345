@@ -205,8 +205,7 @@ header{
 }
 
 #bottom-fixed-bar{
-    padding: 10px;
-    border: 1px solid;
+    padding: 8px;
     position: fixed;
     width: 100%;
     top: 90%;
