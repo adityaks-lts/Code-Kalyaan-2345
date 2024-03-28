@@ -5,3 +5,87 @@
 
 
 /* add styling here */
+#container{
+    max-width: 1920px;
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+    max-height:100% ;
+}
+
+#top-head{
+    display: flex;
+    height: 35px;
+    background-color: #ededed;
+    font-size: 10px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+#top-left-head{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+
+}
+#top-left-head>div:nth-child(2){
+    padding: 6px 12px;
+}
+
+.left-drop{
+    transform: translate(-120px);
+}
+.dropdown:hover .dropdown-menu{
+    display: block !important;
+    width: 100%;
+
+}
+
+.top-drop-menu{
+    padding:16px !important;
+}
+
+.top-drop-menu>a{
+    border-bottom: 1px solid rgb(204, 204, 204) !important;
+    padding-bottom: 10px ;
+    font-size: 10px !important;
+
+}
+
+.dropdown-item>div:first-child{
+    font-weight: bold;
+    font-size: 11px;
+    margin-bottom: 4px;
+}
+
+.my-list>div:not(:first-child){
+    font-size: 10px !important;
+}
+
+.top-drop-menu>a:not(:last-child){
+    margin-bottom: 24px !important;
+}
+
+.top-icons{
+    box-sizing: border-box !important;
+    margin-top: 3px;
+    width: 10px;
+    font-size: 15px !important;
+}
+#top-left-head>div:hover{
+    border-radius: 5px;
+    border-bottom-left-radius: 0% !important;
+    border-bottom-right-radius: 0% !important;
+    border-bottom: 3px solid #e1140a !important;
+    background-color: white; 
+
+}
+
+.top-drop{
+    background-color: transparent !important;
+    color: black !important;
+    border: 0 !important;
+    font-size: 10px !important;
+}
+
