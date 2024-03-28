@@ -1,7 +1,32 @@
 /* add links here for css here */
 
 /* link for lato font */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 /* add styling here */
+
+.field-container-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-email {
+  width: 300px;
+  height: 45px;
+  padding-inline: 22px;
+  box-sizing: border-box;
+}
+
+.footer-socials > img {
+  width: 30px;
+}
+
+.footer-location {
+  width: 300px;
+  padding: 7px 22px 8px 8px;
+  box-sizing: border-box;
+}
+
+.footer-location > img {
+  width: 28px;
+}
