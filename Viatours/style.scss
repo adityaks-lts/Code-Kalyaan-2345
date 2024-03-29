@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 #container {
   #header {
     .navbar {
@@ -54,6 +59,104 @@
   }
 
   #search-sec {
+    padding-inline: 60px;
+    .main-search {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 702px;
+      border-radius: 12px;
+      background-image: url(https://s3-alpha-sig.figma.com/img/bbef/edc5/e54293213050930488246d578b728422?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=S2MSrvz649NIEzIFIoPRG11p-43q3l~lnKT0zPMjYFsI2rXiCKuKDk5RXdFKAetKMPBMTr7lfy9WrnJ4aW4t-O~rDNIkVe0FQZzl3060IUt5-78WXM5JkPMMY2N62y4PU08borrhmLmYk3j1ne6t5ViAfugbGhn5aD9RdjkM6esGQTgORgFKi2zGDvK2cQjuVjbj84TzQQMWNY2TgSjV~Ek1KDhSQRtJNv-e6nwuN03mZFgw~gEeD8Z0ftClmxwEWjsKfYllvk77aa6MGxSQ6JKV3IS3-UFIWiuj9Dw5FIjQ5VcM4vQmhUkU9pSVqJz4sTVHMg24DyrWhuIi5mxWSA__);
+
+      h1 {
+        color: #fff;
+        font-family: Inter;
+        font-size: 69.73px;
+        font-weight: 600;
+        line-height: 84px;
+        text-align: center;
+        margin: 0;
+      }
+
+      p {
+        margin-top: 10px;
+        margin-bottom: 60px;
+        color: #fff;
+        font-family: Inter;
+        font-size: 14.65px;
+        font-weight: 400;
+        line-height: 28.13px;
+        text-align: center;
+      }
+
+      .search {
+        margin: auto;
+        background-color: #fff;
+        box-shadow: 0px 10px 40px 0px #0000000d;
+        width: 850px;
+        height: 60px;
+        padding: 10px;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .categories {
+        height: 50px;
+        display: flex;
+      }
+
+      .circle {
+        background-color: #eb662b0d;
+        width: 50px;
+        height: 50px;
+        border-radius: 12px;
+        margin-right: 10px;
+      }
+
+      .search-content {
+        h5 {
+          margin: 0;
+          font-family: Inter;
+          font-size: 15px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+
+        p {
+          color: #717171;
+
+          margin: 0;
+          font-family: Inter;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+      }
+
+      .search-btn {
+        font-family: Inter;
+        font-weight: 500;
+        font-size: 14.65px;
+        color: #fff;
+        width: 136px;
+        height: 60px;
+        border-radius: 12px;
+        background-color: #eb662b;
+      }
+
+      img {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+      }
+    }
   }
 
   #choose-tourz {
