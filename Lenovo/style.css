@@ -123,6 +123,7 @@ footer {
 #container{
     max-width: 1920px;
     margin: auto;
+    background-color: #ededed;
 }
 
 img{
@@ -133,6 +134,7 @@ header{
     font-family: "Lato", Helvetica, Arial, sans-serif;
     font-size: 14px;
     z-index: 2;
+    background-color: white;
 }
 #top-head{
     display: flex;
@@ -335,5 +337,69 @@ header{
     color: rgb(13, 92, 145);
 }
 
+#main-content{
+  margin: auto;
+  width: 95%;
+}
 
+/* add styling here */
+.row{
+    width: 100%;
+}
+.headings {
+    text-align: center;
+    margin-bottom: 30px;
+}
 
+.card1 {
+    text-align: center;
+}
+.card {
+    transition: transform 0.2s ease; 
+  }
+  
+  .card:hover {
+    transform: scale(1.02); 
+  }
+  
+  
+.headings {
+    text-align: left;
+    margin-bottom: 30px;
+    /* display: flex; */
+  }
+  
+  .card {
+    height: 100%; 
+  }
+  
+  .card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+  }
+  
+  .card-title {
+    text-align: left;
+    margin-top: 10px;
+  }
+  .card-text {
+    text-align: left;
+    margin-bottom: 15px; 
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+    color: black;
+  }
+  .btn.btn-primary {
+    color: black;
+    background-color: white !important;
+    border-color: black; 
+  }
+  .btn.btn-primary:hover {
+    color: white; 
+    background-color: black !important; 
+  }
+  
