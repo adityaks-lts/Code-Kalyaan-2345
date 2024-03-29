@@ -36,7 +36,126 @@
 
     #pop-tours{
 
-
+        .container {
+            width: auto;
+            max-width: 1320px;
+            margin: auto;
+            margin-top: 50px;
+        
+            .outer {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+        
+                > h2 {
+                    font-family: Inter;
+                    font-size: 29px;
+                    font-weight: 700;
+                    line-height: 45px;
+                    letter-spacing: 0em;
+                    color: #05073c;
+                    padding: 5px 0px 0px 15px;
+                }
+        
+                > a {
+                    font-family: Inter;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    text-decoration: none;
+                    padding: 21.88px 40.8px 0px 0px;
+                }
+            }
+        
+            .inner {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 30px;
+                margin: 0px 15px 0px 15px;
+        
+                > div {
+                    border: 1px solid #e7e6e6;
+                    border-radius: 12px;
+        
+                    > img {
+                        padding: 11px;
+                        border-radius: 12px;
+                        display: block;
+                    }
+        
+                    > p:nth-of-type(1) {
+                        font-family: Inter;
+                        font-size: 12px;
+                        font-weight: 400px;
+                        line-height: 24px;
+                        letter-spacing: 0em;
+                        padding: 10px 0px 0px 42px;
+                        margin: 0px;
+                        color: #717171;
+                    }
+        
+                    > h3 {
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-weight: 500px;
+                        line-height: 24px;
+                        letter-spacing: 0em;
+                        color: #05073c;
+                        margin: 0px;
+                        padding-left: 21px;
+                        max-width: 249.4px;
+                    }
+        
+                    > p:nth-of-type(2) {
+                        font-family: Inter;
+                        font-size: 12px;
+                        font-weight: 400px;
+                        line-height: 24px;
+                        letter-spacing: 0em;
+                        padding: 10px 0px 0px 101px;
+                        margin: 0px;
+                        color: #05073c;
+                        max-width: 54.59px;
+                    }
+        
+                    > div {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        max-width: 258px;
+                        margin: 14.3px 21px 11px 21px;
+                        border-top: 1px solid gray;
+        
+                        > span {
+                            font-family: Inter;
+                            font-size: 13px;
+                            font-weight: 400px;
+                            line-height: 24px;
+                            letter-spacing: 0em;
+                            color: #05073c;
+                        }
+        
+                        > div > span:nth-of-type(1) {
+                            font-family: Inter;
+                            font-size: 13px;
+                            font-weight: 400px;
+                            line-height: 24px;
+                            letter-spacing: 0em;
+                            color: #05073c;
+                        }
+        
+                        > div > span:nth-of-type(2) {
+                            font-family: Inter;
+                            font-size: 15px;
+                            font-weight: 500px;
+                            line-height: 30px;
+                            letter-spacing: 0em;
+                            color: #05073c;
+                        }
+                    }
+                }
+            }
+        }
 
 
 
