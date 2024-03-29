@@ -8,6 +8,7 @@ body {
 #container {
   max-width: 1920px;
   font-family: "Inter", sans-serif;
+  margin: auto;
 
   #header {
     .navbar {
@@ -63,7 +64,7 @@ body {
   }
 
   #search-sec {
-    padding-inline: 60px;
+    width: 100%;
     .main-search {
       position: relative;
       display: flex;
@@ -72,7 +73,9 @@ body {
       height: 702px;
       border-radius: 12px;
       background-image: url(https://s3-alpha-sig.figma.com/img/bbef/edc5/e54293213050930488246d578b728422?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=S2MSrvz649NIEzIFIoPRG11p-43q3l~lnKT0zPMjYFsI2rXiCKuKDk5RXdFKAetKMPBMTr7lfy9WrnJ4aW4t-O~rDNIkVe0FQZzl3060IUt5-78WXM5JkPMMY2N62y4PU08borrhmLmYk3j1ne6t5ViAfugbGhn5aD9RdjkM6esGQTgORgFKi2zGDvK2cQjuVjbj84TzQQMWNY2TgSjV~Ek1KDhSQRtJNv-e6nwuN03mZFgw~gEeD8Z0ftClmxwEWjsKfYllvk77aa6MGxSQ6JKV3IS3-UFIWiuj9Dw5FIjQ5VcM4vQmhUkU9pSVqJz4sTVHMg24DyrWhuIi5mxWSA__);
-
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
       h1 {
         color: #fff;
         font-family: Inter;
@@ -165,9 +168,10 @@ body {
   }
 
   #choose-tourz {
-    width: 1320px;
+    width: 100%;
+    max-width: 1320px;
     margin: 120px auto 110px auto;
-
+    box-sizing: border-box;
     .bottom-heading {
       font-family: Inter;
       font-size: 29px;
@@ -224,7 +228,9 @@ body {
 
       }
     }
+
     #dest-cards{
+      width: 100%;
       padding: 40px 0px 100px 0px;
       display: flex;
       height: auto;
@@ -257,6 +263,9 @@ body {
   }
 
   #pop-things {
+    width: 100%;
+    max-width: 1320px;
+    margin: auto;
     #txt{
       width: 100%;
       display: flex;

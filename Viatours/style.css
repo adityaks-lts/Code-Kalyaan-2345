@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
-
 body {
   margin: 0;
   padding: 0;
@@ -8,8 +7,8 @@ body {
 #container {
   max-width: 1920px;
   font-family: "Inter", sans-serif;
+  margin: auto;
 }
-
 #container #header .navbar {
   max-width: 1320px;
   width: 100%;
@@ -19,13 +18,11 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-
 #container #header .navbar .nav-search {
   display: flex;
   align-items: center;
   gap: 77px;
 }
-
 #container #header .navbar .nav-search input {
   font-family: Inter;
   font-weight: 400;
@@ -34,7 +31,6 @@ body {
   height: 20px;
   color: #757575;
 }
-
 #container #header .navbar ul {
   font-family: Inter;
   font-size: 14.77px;
@@ -46,7 +42,6 @@ body {
   align-items: center;
   gap: 63px;
 }
-
 #container #header .navbar button {
   color: #fff;
   border: 0;
@@ -60,11 +55,9 @@ body {
   box-sizing: border-box;
   border-radius: 200px;
 }
-
 #container #search-sec {
-  padding-inline: 60px;
+  width: 100%;
 }
-
 #container #search-sec .main-search {
   position: relative;
   display: flex;
@@ -73,8 +66,10 @@ body {
   height: 702px;
   border-radius: 12px;
   background-image: url(https://s3-alpha-sig.figma.com/img/bbef/edc5/e54293213050930488246d578b728422?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=S2MSrvz649NIEzIFIoPRG11p-43q3l~lnKT0zPMjYFsI2rXiCKuKDk5RXdFKAetKMPBMTr7lfy9WrnJ4aW4t-O~rDNIkVe0FQZzl3060IUt5-78WXM5JkPMMY2N62y4PU08borrhmLmYk3j1ne6t5ViAfugbGhn5aD9RdjkM6esGQTgORgFKi2zGDvK2cQjuVjbj84TzQQMWNY2TgSjV~Ek1KDhSQRtJNv-e6nwuN03mZFgw~gEeD8Z0ftClmxwEWjsKfYllvk77aa6MGxSQ6JKV3IS3-UFIWiuj9Dw5FIjQ5VcM4vQmhUkU9pSVqJz4sTVHMg24DyrWhuIi5mxWSA__);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
-
 #container #search-sec .main-search h1 {
   color: #fff;
   font-family: Inter;
@@ -84,7 +79,6 @@ body {
   text-align: center;
   margin: 0;
 }
-
 #container #search-sec .main-search p {
   margin-top: 10px;
   margin-bottom: 60px;
@@ -95,7 +89,6 @@ body {
   line-height: 28.13px;
   text-align: center;
 }
-
 #container #search-sec .main-search .search {
   margin: auto;
   background-color: #fff;
@@ -108,12 +101,10 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-
 #container #search-sec .main-search .categories {
   height: 50px;
   display: flex;
 }
-
 #container #search-sec .main-search .circle {
   background-color: rgba(235, 102, 43, 0.0509803922);
   width: 50px;
@@ -121,7 +112,6 @@ body {
   border-radius: 12px;
   margin-right: 10px;
 }
-
 #container #search-sec .main-search .search-content h5 {
   margin: 0;
   font-family: Inter;
@@ -131,7 +121,6 @@ body {
   letter-spacing: 0em;
   text-align: left;
 }
-
 #container #search-sec .main-search .search-content p {
   color: #717171;
   margin: 0;
@@ -142,7 +131,6 @@ body {
   letter-spacing: 0em;
   text-align: left;
 }
-
 #container #search-sec .main-search .search-btn {
   font-family: Inter;
   font-weight: 500;
@@ -154,18 +142,17 @@ body {
   border-radius: 12px;
   background-color: #eb662b;
 }
-
 #container #search-sec .main-search img {
   width: 100%;
   position: absolute;
   bottom: 0;
 }
-
 #container #choose-tourz {
-  width: 1320px;
+  width: 100%;
+  max-width: 1320px;
   margin: 120px auto 110px auto;
+  box-sizing: border-box;
 }
-
 #container #choose-tourz .bottom-heading {
   font-family: Inter;
   font-size: 29px;
@@ -175,16 +162,13 @@ body {
   text-align: left;
   margin-left: 35px;
 }
-
 #container #choose-tourz .part-wrapper {
   display: flex;
   justify-content: space-around;
 }
-
 #container #choose-tourz .part {
   width: 255px;
 }
-
 #container #choose-tourz .part h3 {
   font-family: Inter;
   font-size: 18px;
@@ -193,7 +177,6 @@ body {
   letter-spacing: 0em;
   text-align: left;
 }
-
 #container #choose-tourz .part p {
   font-family: Inter;
   font-size: 15px;
@@ -202,81 +185,74 @@ body {
   letter-spacing: 0em;
   text-align: left;
 }
-
 #container #trend-dest {
   margin: auto;
   width: 100%;
   max-width: 1320px;
 }
-
 #container #trend-dest .top-text {
   display: flex;
   justify-content: space-between;
 }
-
-#container #trend-dest .top-text>div:first-child {
+#container #trend-dest .top-text > div:first-child {
   font-size: 29.88px;
   font-weight: 700;
 }
-
-#container #trend-dest .top-text>div:last-child {
+#container #trend-dest .top-text > div:last-child {
   font-size: 14.3px;
   font-weight: 400;
   line-height: 28.13px;
   text-align: left;
 }
-
 #container #trend-dest #dest-cards {
+  width: 100%;
   padding: 40px 0px 100px 0px;
   display: flex;
   height: auto;
   justify-content: space-between;
   align-items: center;
 }
-
-#container #trend-dest #dest-cards>div {
+#container #trend-dest #dest-cards > div {
   width: 135px;
   height: auto;
   text-align: center;
 }
-
-#container #trend-dest #dest-cards>div>img {
+#container #trend-dest #dest-cards > div > img {
   width: 100%;
   border-radius: 50%;
 }
-
-#container #trend-dest #dest-cards>div .place-name {
+#container #trend-dest #dest-cards > div .place-name {
   font-size: 15.25px;
   font-weight: 500;
 }
-
-#container #trend-dest #dest-cards>div .tours-count {
+#container #trend-dest #dest-cards > div .tours-count {
   font-size: 13.56px;
 }
-
+#container #pop-things {
+  width: 100%;
+  max-width: 1320px;
+  margin: auto;
+}
 #container #pop-things #txt {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
-#container #pop-things #txt>h2 {
+#container #pop-things #txt > h2 {
   font-size: 30px;
   font-weight: 700;
   line-height: 45px;
   letter-spacing: 0em;
   text-align: left;
 }
-
-#container #pop-things #txt>h3 {
+#container #pop-things #txt > h3 {
   font-size: 14px;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
 }
-
 #container #pop-things #image {
   width: 100%;
   display: grid;
@@ -285,42 +261,32 @@ body {
   grid-template-areas: "a1 a2 a3 a3" "a4 a2 a5 a6";
   grid-template-rows: 240px 240px;
 }
-
-#container #pop-things #image>div:nth-child(1) {
+#container #pop-things #image > div:nth-child(1) {
   grid-area: a1;
 }
-
-#container #pop-things #image>div:nth-child(2) {
+#container #pop-things #image > div:nth-child(2) {
   grid-area: a2;
 }
-
-#container #pop-things #image>div:nth-child(3) {
+#container #pop-things #image > div:nth-child(3) {
   grid-area: a3;
 }
-
-#container #pop-things #image>div:nth-child(4) {
+#container #pop-things #image > div:nth-child(4) {
   grid-area: a4;
 }
-
-#container #pop-things #image>div:nth-child(5) {
+#container #pop-things #image > div:nth-child(5) {
   grid-area: a5;
 }
-
-#container #pop-things #image>div:nth-child(6) {
+#container #pop-things #image > div:nth-child(6) {
   grid-area: a6;
 }
-
-#container #pop-things #image>div>img {
+#container #pop-things #image > div > img {
   width: 100%;
   height: 100%;
   border-radius: 12px;
 }
-
-#container #pop-things #image>div>div {
+#container #pop-things #image > div > div {
   font-size: 19.53px;
   font-weight: 500;
   color: white;
   transform: translate(20px, -50px);
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
