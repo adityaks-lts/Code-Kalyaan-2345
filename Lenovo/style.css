@@ -381,6 +381,7 @@ header {
 .headings {
   text-align: left;
   margin-bottom: 30px;
+  padding-top: 55px;
   /* display: flex; */
 }
 
@@ -447,6 +448,7 @@ header {
   margin-top: 30px;
   padding: 20px 0px;
   background-color: white;
+  gap: 95px;
 }
 
 .sanpreet .pc {
@@ -484,7 +486,7 @@ header {
 .sanpreet .pc2 {
   display: flex;
   margin: auto;
-  width: 90%;
+  width: 94%;
   height: auto;
   gap: 20px;
   box-sizing: border-box;
@@ -1019,7 +1021,7 @@ margin-bottom: 15px;
 .widgetsTitle {
   margin: 0 auto;
   margin: 0px 16px;
-  padding-top: 48px;
+  /* padding-top: 48px; */
   margin-bottom: 42px;
   margin-left: 34px;
 }
