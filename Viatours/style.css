@@ -404,4 +404,57 @@ body {
   max-width: 1520px;
   background: #F5F5F5;
   box-sizing: border-box;
+}
+#container .footer {
+  width: 100%;
+  height: 655.13px;
+  top: 7722.44px;
+  left: 60px;
+  border-radius: 12px;
+  background-color: #fef7f4;
+  color: #242553;
+}
+#container .footer > div {
+  width: 1320px;
+  height: 655.13px;
+  top: 7722.44px;
+  left: 300px;
+}
+#container .footer #lay1 {
+  width: 372.76px;
+  height: 26px;
+  padding-top: 94.31px;
+  padding-left: 80px;
+}
+#container .footer p {
+  font-weight: bold;
+}
+#container .footer .left {
+  width: 74.22px;
+  height: 31.88px;
+  padding-top: 84.06px;
+  padding-left: 1045.48px;
+  white-space: nowrap;
+}
+#container .footer span {
+  font-weight: bold;
+}
+#container .footer #contact {
+  width: 439.98px;
+  height: 390px;
+  margin-top: 89.12px;
+  margin-left: 74px;
+  white-space: nowrap;
+}
+#container .footer #flex {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+#container .footer #form > input {
+  border: none;
+  height: 32px;
+}
+#container .footer .end > img {
+  justify-content: end;
 }/*# sourceMappingURL=style.css.map */

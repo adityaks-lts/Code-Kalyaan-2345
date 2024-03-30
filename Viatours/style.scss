@@ -467,6 +467,69 @@ body {
   #travel-articles {
   }
 
-  #footer {
+  .footer {
+ 
+      width: 100%;
+      height: 655.13px;
+      top: 7722.44px;
+      left: 60px;
+      border-radius: 12px;
+      background-color: #fef7f4;
+      color: #242553;
+  
+
+  >div {
+      width: 1320px;
+      height: 655.13px;
+      top: 7722.44px;
+      left: 300px;
+  }
+
+  #lay1 {
+      width: 372.76px;
+      height: 26px;
+      padding-top: 94.31px;
+      padding-left: 80px;
+
+
+  }
+
+  p {
+      font-weight: bold;
+  }
+
+  .left {
+      width: 74.22px;
+      height: 31.88px;
+      padding-top: 84.06px;
+      padding-left: 1045.48px;
+      white-space: nowrap;
+  }
+
+  span {
+      font-weight: bold;
+  }
+
+  #contact {
+      width: 439.98px;
+      height: 390px;
+      margin-top: 89.12px;
+      margin-left: 74px;
+      white-space: nowrap;
+
+  }
+
+  #flex {
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+  }
+  #form>input{
+      border: none;
+      height: 32px;
+  }
+  .end>img{
+      justify-content: end;
+  }
   }
 }
