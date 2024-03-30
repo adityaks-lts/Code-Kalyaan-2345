@@ -404,4 +404,32 @@ body {
   max-width: 1520px;
   background: #F5F5F5;
   box-sizing: border-box;
+}
+#container #travel-articles {
+  width: 100%;
+  max-width: 1320px;
+  margin: auto;
+}
+#container #travel-articles .outer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#container #travel-articles .outer > h2 {
+  font-family: Inter;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  color: #05073c;
+  padding: 5px 0px 0px 15px;
+}
+#container #travel-articles .outer > a {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  text-decoration: none;
+  color: black;
+  padding: 21.88px 40.8px 0px 0px;
 }/*# sourceMappingURL=style.css.map */
