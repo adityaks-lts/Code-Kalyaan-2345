@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
-
 body {
   margin: 0;
   padding: 0;
@@ -10,7 +9,6 @@ body {
   font-family: "Inter", sans-serif;
   margin: auto;
 }
-
 #container #header .navbar {
   max-width: 1320px;
   width: 100%;
@@ -20,13 +18,11 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-
 #container #header .navbar .nav-search {
   display: flex;
   align-items: center;
   gap: 77px;
 }
-
 #container #header .navbar .nav-search input {
   font-family: Inter;
   font-weight: 400;
@@ -35,7 +31,6 @@ body {
   height: 20px;
   color: #757575;
 }
-
 #container #header .navbar ul {
   font-family: Inter;
   font-size: 14.77px;
@@ -47,7 +42,6 @@ body {
   align-items: center;
   gap: 63px;
 }
-
 #container #header .navbar button {
   color: #fff;
   border: 0;
@@ -61,11 +55,9 @@ body {
   box-sizing: border-box;
   border-radius: 200px;
 }
-
 #container #search-sec {
   width: 100%;
 }
-
 #container #search-sec .main-search {
   position: relative;
   display: flex;
@@ -78,7 +70,6 @@ body {
   background-size: cover;
   background-position: center center;
 }
-
 #container #search-sec .main-search h1 {
   color: #fff;
   font-family: Inter;
@@ -88,7 +79,6 @@ body {
   text-align: center;
   margin: 0;
 }
-
 #container #search-sec .main-search p {
   margin-top: 10px;
   margin-bottom: 60px;
@@ -99,7 +89,6 @@ body {
   line-height: 28.13px;
   text-align: center;
 }
-
 #container #search-sec .main-search .search {
   margin: auto;
   background-color: #fff;
@@ -112,12 +101,10 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-
 #container #search-sec .main-search .categories {
   height: 50px;
   display: flex;
 }
-
 #container #search-sec .main-search .circle {
   background-color: rgba(235, 102, 43, 0.0509803922);
   width: 50px;
@@ -125,7 +112,6 @@ body {
   border-radius: 12px;
   margin-right: 10px;
 }
-
 #container #search-sec .main-search .search-content h5 {
   margin: 0;
   font-family: Inter;
@@ -135,7 +121,6 @@ body {
   letter-spacing: 0em;
   text-align: left;
 }
-
 #container #search-sec .main-search .search-content p {
   color: #717171;
   margin: 0;
@@ -146,7 +131,6 @@ body {
   letter-spacing: 0em;
   text-align: left;
 }
-
 #container #search-sec .main-search .search-btn {
   font-family: Inter;
   font-weight: 500;
@@ -158,20 +142,17 @@ body {
   border-radius: 12px;
   background-color: #eb662b;
 }
-
 #container #search-sec .main-search img {
   width: 100%;
   position: absolute;
   bottom: 0;
 }
-
 #container #choose-tourz {
   width: 100%;
   max-width: 1320px;
   margin: 120px auto 110px auto;
   box-sizing: border-box;
 }
-
 #container #choose-tourz .bottom-heading {
   font-family: Inter;
   font-size: 29px;
@@ -181,16 +162,13 @@ body {
   text-align: left;
   margin-left: 35px;
 }
-
 #container #choose-tourz .part-wrapper {
   display: flex;
   justify-content: space-around;
 }
-
 #container #choose-tourz .part {
   width: 255px;
 }
-
 #container #choose-tourz .part h3 {
   font-family: Inter;
   font-size: 18px;
@@ -199,7 +177,6 @@ body {
   letter-spacing: 0em;
   text-align: left;
 }
-
 #container #choose-tourz .part p {
   font-family: Inter;
   font-size: 15px;
@@ -208,30 +185,25 @@ body {
   letter-spacing: 0em;
   text-align: left;
 }
-
 #container #trend-dest {
   margin: auto;
   width: 100%;
   max-width: 1320px;
 }
-
 #container #trend-dest .top-text {
   display: flex;
   justify-content: space-between;
 }
-
-#container #trend-dest .top-text>div:first-child {
+#container #trend-dest .top-text > div:first-child {
   font-size: 29.88px;
   font-weight: 700;
 }
-
-#container #trend-dest .top-text>div:last-child {
+#container #trend-dest .top-text > div:last-child {
   font-size: 14.3px;
   font-weight: 400;
   line-height: 28.13px;
   text-align: left;
 }
-
 #container #trend-dest #dest-cards {
   width: 100%;
   padding: 40px 0px 100px 0px;
@@ -240,43 +212,33 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
-#container #trend-dest #dest-cards>div {
+#container #trend-dest #dest-cards > div {
   width: 135px;
   height: auto;
   text-align: center;
 }
-
-#container #trend-dest #dest-cards>div>img {
+#container #trend-dest #dest-cards > div > img {
   width: 100%;
   border-radius: 50%;
 }
-
-#container #trend-dest #dest-cards>div .place-name {
+#container #trend-dest #dest-cards > div .place-name {
   font-size: 15.25px;
   font-weight: 500;
 }
-
-#container #trend-dest #dest-cards>div .tours-count {
+#container #trend-dest #dest-cards > div .tours-count {
   font-size: 13.56px;
 }
-
-#container #pop-tours .container,
-#container #top-trend .container {
+#container #pop-tours .container, #container #top-trend .container {
   width: auto;
   max-width: 1320px;
   margin: auto;
 }
-
-#container #pop-tours .container .outer,
-#container #top-trend .container .outer {
+#container #pop-tours .container .outer, #container #top-trend .container .outer {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-#container #pop-tours .container .outer>h2,
-#container #top-trend .container .outer>h2 {
+#container #pop-tours .container .outer > h2, #container #top-trend .container .outer > h2 {
   font-family: Inter;
   font-size: 29px;
   font-weight: 700;
@@ -285,9 +247,7 @@ body {
   color: #05073c;
   padding: 5px 0px 0px 15px;
 }
-
-#container #pop-tours .container .outer>a,
-#container #top-trend .container .outer>a {
+#container #pop-tours .container .outer > a, #container #top-trend .container .outer > a {
   font-family: Inter;
   font-size: 14px;
   font-weight: 400;
@@ -295,31 +255,23 @@ body {
   text-decoration: none;
   padding: 21.88px 40.8px 0px 0px;
 }
-
-#container #pop-tours .container .inner,
-#container #top-trend .container .inner {
+#container #pop-tours .container .inner, #container #top-trend .container .inner {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
   margin: 0px 15px 0px 15px;
 }
-
-#container #pop-tours .container .inner>div,
-#container #top-trend .container .inner>div {
+#container #pop-tours .container .inner > div, #container #top-trend .container .inner > div {
   border: 1px solid #e7e6e6;
   border-radius: 12px;
   background-color: white;
 }
-
-#container #pop-tours .container .inner>div>img,
-#container #top-trend .container .inner>div>img {
+#container #pop-tours .container .inner > div > img, #container #top-trend .container .inner > div > img {
   padding: 11px;
   border-radius: 12px;
   display: block;
 }
-
-#container #pop-tours .container .inner>div>p:nth-of-type(1),
-#container #top-trend .container .inner>div>p:nth-of-type(1) {
+#container #pop-tours .container .inner > div > p:nth-of-type(1), #container #top-trend .container .inner > div > p:nth-of-type(1) {
   font-family: Inter;
   font-size: 12px;
   font-weight: 400px;
@@ -329,9 +281,7 @@ body {
   margin: 0px;
   color: #717171;
 }
-
-#container #pop-tours .container .inner>div>h3,
-#container #top-trend .container .inner>div>h3 {
+#container #pop-tours .container .inner > div > h3, #container #top-trend .container .inner > div > h3 {
   font-family: Inter;
   font-size: 16px;
   font-weight: 500px;
@@ -342,9 +292,7 @@ body {
   padding-left: 21px;
   max-width: 249.4px;
 }
-
-#container #pop-tours .container .inner>div>p:nth-of-type(2),
-#container #top-trend .container .inner>div>p:nth-of-type(2) {
+#container #pop-tours .container .inner > div > p:nth-of-type(2), #container #top-trend .container .inner > div > p:nth-of-type(2) {
   font-family: Inter;
   font-size: 12px;
   font-weight: 400px;
@@ -355,9 +303,7 @@ body {
   color: #05073c;
   max-width: 54.59px;
 }
-
-#container #pop-tours .container .inner>div>div,
-#container #top-trend .container .inner>div>div {
+#container #pop-tours .container .inner > div > div, #container #top-trend .container .inner > div > div {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -365,9 +311,7 @@ body {
   margin: 14.3px 21px 11px 21px;
   border-top: 1px solid gray;
 }
-
-#container #pop-tours .container .inner>div>div>span,
-#container #top-trend .container .inner>div>div>span {
+#container #pop-tours .container .inner > div > div > span, #container #top-trend .container .inner > div > div > span {
   font-family: Inter;
   font-size: 13px;
   font-weight: 400px;
@@ -375,9 +319,7 @@ body {
   letter-spacing: 0em;
   color: #05073c;
 }
-
-#container #pop-tours .container .inner>div>div>div>span:nth-of-type(1),
-#container #top-trend .container .inner>div>div>div>span:nth-of-type(1) {
+#container #pop-tours .container .inner > div > div > div > span:nth-of-type(1), #container #top-trend .container .inner > div > div > div > span:nth-of-type(1) {
   font-family: Inter;
   font-size: 13px;
   font-weight: 400px;
@@ -385,9 +327,7 @@ body {
   letter-spacing: 0em;
   color: #05073c;
 }
-
-#container #pop-tours .container .inner>div>div>div>span:nth-of-type(2),
-#container #top-trend .container .inner>div>div>div>span:nth-of-type(2) {
+#container #pop-tours .container .inner > div > div > div > span:nth-of-type(2), #container #top-trend .container .inner > div > div > div > span:nth-of-type(2) {
   font-family: Inter;
   font-size: 15px;
   font-weight: 500px;
@@ -395,36 +335,31 @@ body {
   letter-spacing: 0em;
   color: #05073c;
 }
-
 #container #pop-things {
   width: 100%;
   max-width: 1320px;
   margin: auto;
 }
-
 #container #pop-things #txt {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
-#container #pop-things #txt>h2 {
+#container #pop-things #txt > h2 {
   font-size: 30px;
   font-weight: 700;
   line-height: 45px;
   letter-spacing: 0em;
   text-align: left;
 }
-
-#container #pop-things #txt>h3 {
+#container #pop-things #txt > h3 {
   font-size: 14px;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
 }
-
 #container #pop-things #image {
   width: 100%;
   display: grid;
@@ -434,44 +369,35 @@ body {
   grid-template-areas: "a1 a2 a3 a3" "a4 a2 a5 a6";
   grid-template-rows: 240px 240px;
 }
-
-#container #pop-things #image>div:nth-child(1) {
+#container #pop-things #image > div:nth-child(1) {
   grid-area: a1;
 }
-
-#container #pop-things #image>div:nth-child(2) {
+#container #pop-things #image > div:nth-child(2) {
   grid-area: a2;
 }
-
-#container #pop-things #image>div:nth-child(3) {
+#container #pop-things #image > div:nth-child(3) {
   grid-area: a3;
 }
-
-#container #pop-things #image>div:nth-child(4) {
+#container #pop-things #image > div:nth-child(4) {
   grid-area: a4;
 }
-
-#container #pop-things #image>div:nth-child(5) {
+#container #pop-things #image > div:nth-child(5) {
   grid-area: a5;
 }
-
-#container #pop-things #image>div:nth-child(6) {
+#container #pop-things #image > div:nth-child(6) {
   grid-area: a6;
 }
-
-#container #pop-things #image>div>img {
+#container #pop-things #image > div > img {
   width: 100%;
   height: 100%;
   border-radius: 12px;
 }
-
-#container #pop-things #image>div>div {
+#container #pop-things #image > div > div {
   font-size: 19.53px;
   font-weight: 500;
   color: white;
   transform: translate(20px, -50px);
 }
-
 #container #top-trend {
   padding: 60px 105px 120px 105px;
   margin: auto;
@@ -479,7 +405,60 @@ body {
   background: #F5F5F5;
   box-sizing: border-box;
 }
-
+#container #travel-articles {
+  width: 100%;
+  max-width: 1320px;
+  margin: auto;
+}
+#container #travel-articles .outer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#container #travel-articles .outer > h2 {
+  font-family: Inter;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  color: #05073c;
+  padding: 5px 0px 0px 15px;
+}
+#container #travel-articles .outer > a {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  text-decoration: none;
+  padding: 21.88px 40.8px 0px 0px;
+}
+#container #travel-articles .inner {
+  display: flex;
+  gap: 30px;
+}
+#container #travel-articles .inner > div > img {
+  width: 100%;
+}
+#container #travel-articles .inner > div .details {
+  display: flex;
+  margin: 34px 0px 14px 0px;
+  font-size: 13.45px;
+}
+#container #travel-articles .inner > div .details > div:first-child {
+  border-right: 2px solid #E7E6E6;
+  padding-right: 10px;
+}
+#container #travel-articles .inner > div .details > div:last-child {
+  padding-left: 10px;
+}
+#container #travel-articles .inner > div > div:last-child {
+  font-size: 17.3px;
+  font-weight: 500;
+}
+#container .footer-border {
+  width: 100%;
+  transform: translateY(38px);
+}
 #container .footer {
   width: 100%;
   height: 655.13px;
@@ -489,8 +468,7 @@ body {
   background-color: #fef7f4;
   color: #242553;
 }
-
-#container .footer>div {
+#container .footer > div {
   margin: auto;
   max-width: 1320px;
   width: 100%;
@@ -498,7 +476,6 @@ body {
   top: 7722.44px;
   left: 300px;
 }
-
 #container .footer #lay1 {
   max-width: 1290px;
   width: 100%;
@@ -510,21 +487,17 @@ body {
   margin: auto;
   box-sizing: border-box;
 }
-
 #container .footer h2 {
   font-size: 20px;
   font-weight: 500;
 }
-
 #container .footer p {
   font-size: 14.41px;
   font-weight: 400;
 }
-
 #container .footer span {
   font-weight: bold;
 }
-
 #container .footer #flex {
   width: 100%;
   margin-top: 40px;
@@ -532,15 +505,13 @@ body {
   justify-content: center;
   justify-content: space-evenly;
 }
-
-#container .footer #form>input {
+#container .footer #form > input {
   border-radius: 12px;
   padding-left: 21px;
   border: none;
   height: 60px;
   width: 220px;
 }
-
 #container .footer .footer-submit {
   border-radius: 12px;
   padding: 23px 30px;
@@ -548,13 +519,11 @@ body {
   transform: translate(-20px);
   border: 0;
 }
-
-#container .footer .end>img {
+#container .footer .end > img {
   width: 38px;
   height: 24px;
   justify-content: end;
 }
-
 #container .copyrights {
   padding: 24px 0px;
   display: flex;
@@ -563,6 +532,4 @@ body {
   max-width: 1320px;
   margin: auto;
   font-size: 14.53px;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
