@@ -256,12 +256,11 @@ body {
     }
   }
 
-  #pop-tours {
+  #pop-tours , #top-trend{
     .container {
         width: auto;
         max-width: 1320px;
         margin: auto;
-        margin-top: 50px;
     
         .outer {
             display: flex;
@@ -297,6 +296,7 @@ body {
             > div {
                 border: 1px solid #e7e6e6;
                 border-radius: 12px;
+                background-color: white;
     
                 > img {
                     padding: 11px;
@@ -412,6 +412,7 @@ body {
         width: 100%;
         display: grid;
         gap: 15px;
+        justify-content: center;
         grid-template-columns: 300px 410px 190px 300px;
         grid-template-areas: "a1 a2 a3 a3"
                             "a4 a2 a5 a6";
@@ -450,6 +451,11 @@ body {
   }
 
   #top-trend {
+    padding: 60px 105px 120px 105px;
+    margin: auto;
+    max-width: 1520px;
+    background: #F5F5F5;
+    box-sizing: border-box;
   }
 
   #customer-review {
