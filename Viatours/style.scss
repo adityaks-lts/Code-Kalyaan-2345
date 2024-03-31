@@ -525,10 +525,163 @@ body {
   }
 
   #customer-review {
+    background-image: url("./content/Frame\ \(2\).png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 871px;
   }
 
-  #offer-card-2 {
+  .customer-review-in{
+    width: 1320px;
+    height: 610.84px;
+    top: 5200.81px;
+    left: 300px;
+    padding: 0px 345px 0px 345px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
+
+  .cr-heading{
+    margin-top: 0px;
+    font-family: Inter;
+font-size: 29.53px;
+font-weight: 700;
+line-height: 45px;
+text-align: center;
+color: #05073C;
+
+
+  }
+
+  .cr-image{
+    width: 100px;
+height: 100px;
+top: 10px;
+left: 265px;
+gap: 0px;
+opacity: 0px;
+margin-top: 70px;
+margin-bottom: 70px;
+  }
+
+  .cr-exc{
+    font-family: Inter;
+font-size: 17.58px;
+font-weight: 500;
+line-height: 33.75px;
+text-align: center;
+color: #EB662B;
+margin-bottom: 25px;
+  }
+
+.cr-para{
+  font-family: Inter;
+font-size: 19.53px;
+font-weight: 500;
+line-height: 37.5px;
+text-align: center;
+margin-bottom: 25.5px;
+color: #05073C;
+}
+.cr-name{
+  font-family: Inter;
+font-size: 15.75px;
+font-weight: 500;
+line-height: 25.6px;
+text-align: center;
+color: #05073C;
+}
+
+
+  #offer-card-2 {
+    background-image: url("./content/text.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1520px;
+    width: 100%;
+    height: 514px;
+    margin: auto;
+    padding-top: 100px;
+    padding-left: 120px;
+    border-radius: 12px;
+    box-sizing: border-box;
+  }
+
+  .offer-card-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    // margin-left: 120px;
+    // margin-top: 100px;
+  }
+
+  .offer-card-head{
+    font-family: Inter;
+font-size: 39.53px;
+font-weight: 700;
+line-height: 52px;
+text-align: left;
+color: white;
+  }
+  .offer-card-para{
+    font-family: Inter;
+font-size: 14.53px;
+font-weight: 400;
+line-height: 28.13px;
+text-align: left;
+color: white;
+margin-top: 14px;
+
+  }
+
+  .offer-card-email{
+    font-family: Inter;
+font-size: 17.58px;
+font-weight: 400;
+line-height: 33.75px;
+text-align: left;
+color: white;
+margin-top: 44.13px;
+  }
+
+  .offer-card-input{
+    width: 350px;
+    // width: 107.88px;
+height: 40px;
+top: 6285.66px;
+left: 315px;
+padding: 20px 0px 0px 0px;
+gap: 0px;
+border-radius: 12px ;
+opacity: 0px;
+margin-top: 10px;
+margin-right: 10px;
+padding: 10px;
+padding-left: 20px;
+  }
+  .offer-card-submit{
+    width: 107.88px;
+height: 61px;
+top: 6285.66px;
+left: 675px;
+padding: 20px 35.8px 20px 36px;
+gap: 0px;
+border-radius: 12px;
+opacity: 0px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 36px;
+padding-right: 36px;
+
+  }
+
 
   #travel-articles {
     width: 100%;
