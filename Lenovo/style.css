@@ -654,7 +654,6 @@ header {
   color: #fff;
   text-transform: uppercase;
   line-height: 22px;
-  transform: translate(-50);
 }
 
 #top-main-carousel .hero_text_subhead1 {
@@ -664,7 +663,6 @@ header {
   color: #fff;
   text-transform: uppercase;
   line-height: 22px;
-  /* transform: translate(-50px) !important; */
 
 }
 
@@ -905,20 +903,19 @@ header {
 
 #top-main-carousel .carousel-control-prev-icon {
   background-color: black;
-  transform: translate(-42px);
   border-radius: 50%;
   height: 44px;
   width: 44px;
+
   transform: translate(-10px);
 }
 
 #top-main-carousel .carousel-control-next-icon {
   background-color: black;
-  transform: translate(-42px);
   border-radius: 50%;
   height: 44px;
   width: 44px;
-  transform: translate(20px);
+  transform: translate(-40px);
 
 }
 
@@ -1007,13 +1004,22 @@ header {
   margin-bottom: 15px;
 }
 
-.carousel-control-prev-icon:hover {
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
   background-color: #040404;
 }
 
 .carousel-control-prev-icon {
   border-radius: 50%;
-  margin-left: -100px;
+  /* margin-left: -100px; */
+}
+
+.bottom-next {
+  transform: translate(-30px);
+}
+
+.bottom-prev {
+  transform: translate(-30px);
 }
 
 .carousel-control-next-icon:hover {
