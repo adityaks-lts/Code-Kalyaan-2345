@@ -6,8 +6,10 @@ body {
 
 #container {
   max-width: 1920px;
+  width: 100%;
   font-family: "Inter", sans-serif;
   margin: auto;
+  box-sizing: border-box;
 }
 #container #header .navbar {
   max-width: 1320px;
@@ -17,6 +19,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 #container #header .navbar .nav-search {
   display: flex;
@@ -261,15 +264,16 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
-  margin: 0px 15px 0px 15px;
 }
 #container #pop-tours .container .inner > div, #container #top-trend .container .inner > div {
   border: 1px solid #e7e6e6;
   border-radius: 12px;
   background-color: white;
+  padding: 11px;
+  box-sizing: border-box;
 }
 #container #pop-tours .container .inner > div > img, #container #top-trend .container .inner > div > img {
-  padding: 11px;
+  width: 100%;
   border-radius: 12px;
   display: block;
 }
@@ -314,7 +318,6 @@ body {
   border-top: 1px solid gray;
 }
 #container #pop-tours .container .inner > div > div > span, #container #top-trend .container .inner > div > div > span {
-  font-family: Inter;
   font-size: 13px;
   font-weight: 400px;
   line-height: 24px;
@@ -322,7 +325,6 @@ body {
   color: #05073c;
 }
 #container #pop-tours .container .inner > div > div > div > span:nth-of-type(1), #container #top-trend .container .inner > div > div > div > span:nth-of-type(1) {
-  font-family: Inter;
   font-size: 13px;
   font-weight: 400px;
   line-height: 24px;
@@ -330,7 +332,6 @@ body {
   color: #05073c;
 }
 #container #pop-tours .container .inner > div > div > div > span:nth-of-type(2), #container #top-trend .container .inner > div > div > div > span:nth-of-type(2) {
-  font-family: Inter;
   font-size: 15px;
   font-weight: 500px;
   line-height: 30px;
@@ -351,7 +352,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(./frame-left.png);
+  background-image: url("content/frame-left.png");
 }
 #container #offer-card-1 .left .content {
   text-align: center;
@@ -395,6 +396,7 @@ body {
   width: 100%;
   max-width: 1320px;
   margin: auto;
+  box-sizing: border-box;
 }
 #container #pop-things #txt {
   width: 100%;
@@ -418,12 +420,12 @@ body {
 }
 #container #pop-things #image {
   width: 100%;
+  height: 515px;
   display: grid;
-  gap: 15px;
-  justify-content: center;
-  grid-template-columns: 300px 410px 190px 300px;
+  gap: 30px;
+  box-sizing: border-box;
   grid-template-areas: "a1 a2 a3 a3" "a4 a2 a5 a6";
-  grid-template-rows: 240px 240px;
+  grid-template-rows: 47% 47%;
 }
 #container #pop-things #image > div:nth-child(1) {
   grid-area: a1;
@@ -443,10 +445,18 @@ body {
 #container #pop-things #image > div:nth-child(6) {
   grid-area: a6;
 }
+#container #pop-things #image > div {
+  height: 100%;
+  box-sizing: border-box;
+}
 #container #pop-things #image > div > img {
   width: 100%;
   height: 100%;
   border-radius: 12px;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #container #pop-things #image > div > div {
   font-size: 19.53px;
@@ -463,19 +473,23 @@ body {
   box-sizing: border-box;
 }
 #container #customer-review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: url("./content/Frame (2).png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 871px;
+  box-sizing: border-box;
 }
-#container .customer-review-in {
-  width: 1320px;
+#container #customer-review .customer-review-in {
+  max-width: 1320px;
+  width: 100%;
   height: 610.84px;
   top: 5200.81px;
   left: 300px;
-  padding: 0px 345px 0px 345px;
   gap: 0px;
   opacity: 0px;
   display: flex;
@@ -483,7 +497,7 @@ body {
   justify-content: center;
   flex-direction: column;
 }
-#container .cr-heading {
+#container #customer-review .cr-heading {
   margin-top: 0px;
   font-family: Inter;
   font-size: 29.53px;
@@ -492,7 +506,7 @@ body {
   text-align: center;
   color: #05073C;
 }
-#container .cr-image {
+#container #customer-review .cr-image {
   width: 100px;
   height: 100px;
   top: 10px;
@@ -502,8 +516,7 @@ body {
   margin-top: 70px;
   margin-bottom: 70px;
 }
-#container .cr-exc {
-  font-family: Inter;
+#container #customer-review .cr-exc {
   font-size: 17.58px;
   font-weight: 500;
   line-height: 33.75px;
@@ -511,8 +524,7 @@ body {
   color: #EB662B;
   margin-bottom: 25px;
 }
-#container .cr-para {
-  font-family: Inter;
+#container #customer-review .cr-para {
   font-size: 19.53px;
   font-weight: 500;
   line-height: 37.5px;
@@ -520,7 +532,7 @@ body {
   margin-bottom: 25.5px;
   color: #05073C;
 }
-#container .cr-name {
+#container #customer-review .cr-name {
   font-family: Inter;
   font-size: 15.75px;
   font-weight: 500;
