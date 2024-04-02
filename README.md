@@ -10,18 +10,36 @@ Viatours is a web component designed to provide a sleek and dynamic user experie
 
 ### Deployed Link
 
-[Live Demo Lenovo](https://lenovo-code-kalyaan.netlify.app/)
+[Live Demo Lenovo](https://lenovo-code-kalyaan.netlify.app/)<br>
 [Live Demo Viatours](https://viatours-code-kalyaan.netlify.app/)
 
 ### Screenshots
 
 #### Lenovo Desktop View
 
-<img src="./assets/largeScreen.png" alt="Desktop View" style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
+<img src="./screenshots/Lenovo/S1.png" alt="Desktop View" style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
 
-#### Pop-up Alert
+<img src="./screenshots/Lenovo/S2.png" alt="Desktop View" style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
 
-<img src="./assets/popup.png" alt="Pop-up Alert" style="box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.8);">
+<img src="./screenshots/Lenovo/S3.png" alt="Desktop View" style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
+
+<img src="./screenshots/Lenovo/S4.png" alt="Desktop View" style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
+
+### Viatours Deskstop View
+
+<img src="./screenshots/Viatours/S1.png" alt="Desktop View" style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
+
+<img src="./screenshots/Viatours/S2.png" alt="Desktop View" style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
+
+<img src="./screenshots/Viatours/S3.png" alt="Desktop View" style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
+
+<img src="./screenshots/Viatours/S4.png" alt="Desktop View" style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
+
+<img src="./screenshots/Viatours/S5.png" alt="Desktop View" style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
+
+<img src="./screenshots/Viatours/S6.png" alt="Desktop View" style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
+
+<img src="./screenshots/Viatours/S7.png" alt="Desktop View" style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
 
 ## Features
 
@@ -36,7 +54,7 @@ Viatours is a web component designed to provide a sleek and dynamic user experie
 
 - **HTML**: Provides the structure and content for the web page.
 - **CSS**: Handles the UI and styling, ensuring an appealing visual presentation.
-- **JavaScript**: Implements functionality such as the alert button and dynamic
+- **SCSS**: SCSS is a CSS preprocessor that adds functionality like variables, nesting, and mixins
 
 ### Design Elements
 
@@ -46,8 +64,9 @@ Viatours is a web component designed to provide a sleek and dynamic user experie
 2. **Keyframes:**
    Keyframes are employed to create captivating animations within the website. By defining specific animation steps, keyframes enhance user engagement and interaction, providing a seamless browsing experience.
 
-3. **Overlay:**
-   The overlay feature is integrated to enhance the visual presentation of images. By adding a translucent layer over images, overlay improves readability and focus, making text content more prominent and appealing.
+3. **Bootstrap:**
+   Bootstrap is a popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web. It features a grid system, components, and utilities for faster web design
+
 4. **Responsive Design:**
    Utilizes media queries and flex layouts to adapt the page layout across various devices, ensuring a seamless browsing experience on mobile phones, tablets, and desktop computers.
 
