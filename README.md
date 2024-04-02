@@ -1,7 +1,12 @@
 ## Code-Kalyaan
 
-#Lenovo
-#Viatours
+### Lenovo
+
+Lenovo's website is useful for marketing and selling a wide range of consumer electronics, personal computers, software, business solutions, and related services It incorporated heading contains different options that uses navbar different carousal that uses bootstrap, flex layout, footers.
+
+### Viatours
+
+Viatours is a web component designed to provide a sleek and dynamic user experience for exploring travel options. It has also a header a search bar different section for exploring tours options and explore others such as popular tours destination ,popular things to do, travel articles they utilizes grid layout and made with help of scss to incorporated smooth experience in styling
 
 ### Deployed Link
 
@@ -10,16 +15,13 @@
 
 ### Screenshots
 
-#### Mobile View
-<img src="./assets/smallScreen.png" alt="Mobile View" width="300" 
-style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
+#### Lenovo Desktop View
 
-#### Desktop View
 <img src="./assets/largeScreen.png" alt="Desktop View" style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
 
 #### Pop-up Alert
-<img src="./assets/popup.png" alt="Pop-up Alert" style="box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.8);">
 
+<img src="./assets/popup.png" alt="Pop-up Alert" style="box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.8);">
 
 ## Features
 
@@ -34,7 +36,7 @@ style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
 
 - **HTML**: Provides the structure and content for the web page.
 - **CSS**: Handles the UI and styling, ensuring an appealing visual presentation.
-- **JavaScript**: Implements functionality such as the alert button and dynamic 
+- **JavaScript**: Implements functionality such as the alert button and dynamic
 
 ### Design Elements
 
@@ -47,10 +49,10 @@ style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
 3. **Overlay:**
    The overlay feature is integrated to enhance the visual presentation of images. By adding a translucent layer over images, overlay improves readability and focus, making text content more prominent and appealing.
 4. **Responsive Design:**
-  Utilizes media queries and flex layouts to adapt the page layout across various devices, ensuring a seamless browsing experience on mobile phones, tablets, and desktop computers.
+   Utilizes media queries and flex layouts to adapt the page layout across various devices, ensuring a seamless browsing experience on mobile phones, tablets, and desktop computers.
 
 5. **Fonts & Icons:**
-  Integrates Google Fonts and FontAwesome icons for enhanced typography and visual elements. By leveraging these resources, the website achieves a modern and visually appealing design, improving readability and user engagement.   
+   Integrates Google Fonts and FontAwesome icons for enhanced typography and visual elements. By leveraging these resources, the website achieves a modern and visually appealing design, improving readability and user engagement.
 
 ## How to Use
 
@@ -58,7 +60,7 @@ To run this project locally:
 
 1. Clone this repository to your local machine.
 2. Open the `index.html` file in your preferred web browser.
-3. Explore the Travelopia experience right from your device.
+3. Explore the Lenovo and Viatours experience right from your device.
 
 ## Contributors
 
@@ -71,7 +73,6 @@ To run this project locally:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 
 ## Acknowledgments
 
