@@ -32,6 +32,10 @@ Code-Kalyan/<br>
 
 [Presentation Link](https://www.youtube.com/watch?v=ki63liGzw14)
 
+### Questionnaires related to project
+
+[Youtube Playlist Link](https://www.youtube.com/playlist?list=PLmWQz0Sx2H8t9EouBoi6DiV0q1aUCdB_e)
+
 ### Screenshots
 
 #### Lenovo Desktop View
@@ -86,6 +90,7 @@ Code-Kalyan/<br>
    Integrates Google Fonts and FontAwesome icons for enhanced typography and visual elements. By leveraging these resources, the website achieves a modern and visually appealing design, improving readability and user engagement.
 
 3. **Figma:**
+   It is used a web-based UI/UX design app that enables collaborative, browser-based graphic design and prototyping with a generous free plan for how the website will look and what functionality it will have.
 
 ## How to Use
 
@@ -109,5 +114,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Inspired by the beauty of travel and exploration.
+- Inspired by Lenovo original website.
 - Special thanks to the our mentor/IA [Rahul Rajeevan Sir](https://github.com/Rahul-Rajeevan) for giving us directions and material for this project.
