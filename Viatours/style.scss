@@ -28,6 +28,7 @@ body {
         gap: 77px;
 
         input {
+          width: 240px;
           font-family: Inter;
           font-weight: 400;
           font-size: 14.77px;
@@ -74,7 +75,7 @@ body {
       align-items: center;
       height: 702px;
       border-radius: 12px;
-      background-image: url(https://s3-alpha-sig.figma.com/img/bbef/edc5/e54293213050930488246d578b728422?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=S2MSrvz649NIEzIFIoPRG11p-43q3l~lnKT0zPMjYFsI2rXiCKuKDk5RXdFKAetKMPBMTr7lfy9WrnJ4aW4t-O~rDNIkVe0FQZzl3060IUt5-78WXM5JkPMMY2N62y4PU08borrhmLmYk3j1ne6t5ViAfugbGhn5aD9RdjkM6esGQTgORgFKi2zGDvK2cQjuVjbj84TzQQMWNY2TgSjV~Ek1KDhSQRtJNv-e6nwuN03mZFgw~gEeD8Z0ftClmxwEWjsKfYllvk77aa6MGxSQ6JKV3IS3-UFIWiuj9Dw5FIjQ5VcM4vQmhUkU9pSVqJz4sTVHMg24DyrWhuIi5mxWSA__);
+      background-image: url("content/background.jpeg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
@@ -393,6 +394,7 @@ body {
     
     .left {
       width: 50%;
+      // height: 100%;
       padding: 20px;
       display: flex;
       justify-content: center;
@@ -435,7 +437,7 @@ body {
       
       img {
         max-width: 100%;
-        height: auto;
+        height: 99%;
       }
     }
     
@@ -451,6 +453,7 @@ body {
     width: 100%;
     max-width: 1320px;
     margin: auto;
+    margin-top: 50px;
     box-sizing: border-box;
     #txt{
       width: 100%;
@@ -697,6 +700,7 @@ body {
     width: 100%;
     max-width: 1320px;
     margin: auto;
+    margin-top: 50px;
     .outer {
       display: flex;
       justify-content: space-between;
